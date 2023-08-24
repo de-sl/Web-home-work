@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background-color: rgb(16, 131, 131);
+=======
+    background-color: black;
+>>>>>>> a2724acf0538c60965a2fb41e1e6205009f600fc
     overflow: auto;
 }
 nav {
@@ -73,6 +77,9 @@ div.main_dr_class {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+<<<<<<< HEAD
 span {
     color: aliceblue;
 }
+=======
+>>>>>>> a2724acf0538c60965a2fb41e1e6205009f600fc
