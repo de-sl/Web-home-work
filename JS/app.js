@@ -22,7 +22,7 @@ function weight() {
     let category
     let kg = parseInt(document.getElementById('weight').value)
     let sm = parseInt(document.getElementById('height').value) / 100
-    if (kg <= 20 || sm <= 100) {
+    if (kg >= 20 || sm >= 100) {
         alert ("Введено неверное значение массы или роста")
         document.getElementById('weight').value = " "
         document.getElementById('height').value = " "
