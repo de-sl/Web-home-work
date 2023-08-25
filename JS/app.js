@@ -50,8 +50,3 @@ function weight() {
     document.getElementById("message").innerText = category;
 }
 
-
-function chat() {
-    let us_name = parseInt(document.getElementById('user_name').value)
-    let us_messege = parseInt(document.getElementById('user_messege').value) 
-}
