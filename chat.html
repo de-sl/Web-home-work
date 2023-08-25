@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Чат любителей драконов</title>
     <link rel="stylesheet" href="css/stily.css">
-    <scrip defer src="JS/app.js"></script>
+    <script defer src="JS/chat.js"></script>
 </head>
 <body>
     <header>
@@ -23,12 +23,14 @@
         <main>
             <div class="cont_chat">
                 <h2>Чат:</h2>
-                <span id="message"></span>
+                
+                <span id="message1"> </span>
                 <br>
             </div>
-            <input type="text" placeholder="Введите Ваше сообщение :" id="user_messege">
-            <input type="text" placeholder="Введите Ваше имя:" id="user_name">
-            <button onclick="chat()">Отправить</button>
+            <input type="text" placeholder="Введите Ваше сообщение :" id='user_messege'>
+            <input type="text" placeholder="Введите Ваш никнейм :" id='user_nickname'>
+            <button onclick="chat()"> Отправить </button> 
+            <span id="uname"></span>
                                            
             
         </main>
