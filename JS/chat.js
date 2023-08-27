@@ -16,6 +16,9 @@ function chat() {
    }
         
     document.getElementById("user_messege").value = ' '
+
+
+}
    //if ("messege1" === " "){
         //  let u_massage1  = document.getElementById("message1").innerText = messege_nickname
           
@@ -28,7 +31,7 @@ function chat() {
     //document.getElementById('body').value = nickname + ": " + us_messege;
      //document.getElementById("user_messege").value = " "
     //document.getElementById("message1").innerText = messege_nickname
-}
+
 
 
 // switch(true) {
