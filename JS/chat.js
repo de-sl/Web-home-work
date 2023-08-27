@@ -1,6 +1,7 @@
 var user_name = prompt("Пожалуйста, представьтесь")
+     alert(user_name + ', ПРИВЕТСТВУЕМ ТЕБЯ')
 document.getElementById("user_nickname").value = user_name
-
+document.getElementById('hello_user').innerText = user_name
 function chat() {
    let us_messege = document.getElementById("user_messege").value
    let nickname = document.getElementById("user_nickname").value
