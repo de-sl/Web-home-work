@@ -23,16 +23,17 @@
         <div class="container">
             <h2>Чат:</h2>
             Масса тела: 
-            <input type="text" placeholder="Введите массу :" id="weight"> в килограммах
+            <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Введите массу :" id="weight"> в килограммах
             <br>
             Рост: 
-            <input type="text" placeholder="Введите рост :" id="height"> в сантиметрах
+            <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Введите рост :" id="height"> в сантиметрах
             <br>
             <button onclick="weight()">Рассчитать</button>
             <br>
             Резултат: <span id="result">0</span>
             <br>
             Сообщение: <span id="message"></span>
+            
         </div>
     </main>
     <hr>
